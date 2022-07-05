@@ -632,14 +632,6 @@ exe "hi! htmlArg"           .s:fmt_none .s:fg_base00 .s:bg_none
 exe "hi! javaScript"        .s:fmt_none .s:fg_yellow .s:bg_none
 "}}}
 
-" perl highlighting "{{{
-" ---------------------------------------------------------------------
-exe "hi! perlHereDoc"    . s:fg_base1  .s:bg_back   .s:fmt_none
-exe "hi! perlVarPlain"   . s:fg_yellow .s:bg_back   .s:fmt_none
-exe "hi! perlStatementFileDesc". s:fg_cyan.s:bg_back.s:fmt_none
-
-"}}}
-
 " tex highlighting "{{{
 " ---------------------------------------------------------------------
 exe "hi! texStatement"   . s:fg_cyan   .s:bg_back   .s:fmt_none
@@ -647,31 +639,6 @@ exe "hi! texMathZoneX"   . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! texMathMatcher" . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! texMathMatcher" . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! texRefLabel"    . s:fg_yellow .s:bg_back   .s:fmt_none
-"}}}
-
-" ruby highlighting "{{{
-" ---------------------------------------------------------------------
-exe "hi! rubyDefine"     . s:fg_base1  .s:bg_back   .s:fmt_bold
-"rubyInclude
-"rubySharpBang
-"rubyAccess
-"rubyPredefinedVariable
-"rubyBoolean
-"rubyClassVariable
-"rubyBeginEnd
-"rubyRepeatModifier
-"hi! link rubyArrayDelimiter    Special  " [ , , ]
-"rubyCurlyBlock  { , , }
-
-"hi! link rubyClass             Keyword
-"hi! link rubyModule            Keyword
-"hi! link rubyKeyword           Keyword
-"hi! link rubyOperator          Operator
-"hi! link rubyIdentifier        Identifier
-"hi! link rubyInstanceVariable  Identifier
-"hi! link rubyGlobalVariable    Identifier
-"hi! link rubyClassVariable     Identifier
-"hi! link rubyConstant          Type
 "}}}
 
 " haskell syntax highlighting"{{{

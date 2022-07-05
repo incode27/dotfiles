@@ -32,7 +32,10 @@ nmap <Tab> :tabnext<Return>
 	map s<right> <C-w>l
 	map s<up> <C-w>k
 	map s<down> <C-w>j
-
+	map sh <C-w>h
+	map sl <C-w>l
+	map sk <C-w>k
+	map sj <C-w>j
 	"Resize window
 	nmap <C-w><left> <C-w><
 	nmap <C-w><right> <C-w>>

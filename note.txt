@@ -1,0 +1,16 @@
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/vim-surround
+
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/nvim-web-devicons
+
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/emmet-vim
+
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/nerdtree
+
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/telescope.nvim
+
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/plenary.nvim
+
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/nvim-treesitter
+
+git config --global --add safe.directory C:/Users/Misba/AppData/Local/nvim-data/plugged/vim-fugitive
+
